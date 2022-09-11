@@ -2,7 +2,6 @@ version: '3'
 services: 
   httpd:
     image: eudespaz/ocomon4.0:prod
-    restart: always
     ports:
       - 8070:80
     volumes:
